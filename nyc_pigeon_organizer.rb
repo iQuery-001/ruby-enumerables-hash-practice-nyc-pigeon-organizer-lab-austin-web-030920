@@ -10,7 +10,7 @@ def nyc_pigeon_organizer(data)
     counter += 1
   end
   pigeon_list.each do |(key, value)|
-    key.to_s
+    pigeon_list[key].to_s
   end
   data.each do |(type, option)|
     option.each do |(option, value)|
