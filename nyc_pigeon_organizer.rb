@@ -4,7 +4,7 @@ def nyc_pigeon_organizer(data)
   pidgeon_list = {}
   data.each_pair do |(key, value)|
     value.each do |(key, value)|
-      # binding.pry
+      binding.pry
       count = 0
       while count < value.length do
         pidgeon_list[:value[count]] = {}
