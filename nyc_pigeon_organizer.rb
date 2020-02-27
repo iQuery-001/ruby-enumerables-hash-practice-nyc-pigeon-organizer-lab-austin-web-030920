@@ -16,10 +16,10 @@ def nyc_pigeon_organizer(data)
     option.each do |(option_2, value)|
       value.each do |name|
         pigeon_list[name][type] << option_2.to_s
-        binding.pry
+        # binding.pry
       end
     end
   end
-  binding.pry
+  # binding.pry
   pigeon_list
 end
