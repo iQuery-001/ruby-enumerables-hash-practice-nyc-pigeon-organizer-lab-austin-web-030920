@@ -6,6 +6,7 @@ def nyc_pigeon_organizer(data)
   counter = 0
   while counter < pigeon_names.length do
     pigeon_list[:pigeon_names[counter]] = {}
+    binding.pruy
   end
   # data[:gender].each do |type|
   #   type.each do |option|
