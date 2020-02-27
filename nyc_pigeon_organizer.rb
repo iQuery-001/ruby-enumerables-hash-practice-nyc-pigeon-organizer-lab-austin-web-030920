@@ -7,7 +7,7 @@ def nyc_pigeon_organizer(data)
   pigeon_names.each do |name|
     # binding.pry
     pigeon_list[name] = {color: [], gender: [], lives: []}
-    binding.pry
+    # binding.pry
   end
   # pigeon_list.each do |(key, value)|
   #   pigeon_list[key] = key.to_s
@@ -16,7 +16,7 @@ def nyc_pigeon_organizer(data)
     option.each do |(option, value)|
       value.each do |name|
         pigeon_list[name][type.to_sym] << option.to_s
-        # binding.pry
+        binding.pry
       end
     end
   end
