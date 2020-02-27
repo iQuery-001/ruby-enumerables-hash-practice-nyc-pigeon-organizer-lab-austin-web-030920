@@ -5,7 +5,7 @@ def nyc_pigeon_organizer(data)
   pigeon_names = data[:gender][:male].concat(data[:gender][:female])
   counter = 0
   pigeon_names.each do |name|
-    binding.pry
+    # binding.pry
     pigeon_list[name] = {color: [], gender: [], lives: []}
     # binding.pry
   end
