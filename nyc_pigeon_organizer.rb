@@ -15,6 +15,9 @@ def nyc_pigeon_organizer(data)
   data.each do |(type, option)|
     option.each do |(option_2, value)|
       value.each do |name|
+        puts name
+        puts type
+        puts option_2
         pigeon_list[name][type] << option_2.to_s
         # binding.pry
       end
