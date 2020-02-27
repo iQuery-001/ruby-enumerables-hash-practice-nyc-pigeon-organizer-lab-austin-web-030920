@@ -6,7 +6,7 @@ def nyc_pigeon_organizer(data)
     n.each do |option|
       counter = 0
       while counter < option.length
-        pidgeon_list[m[counter]] = {}
+        pidgeon_list[option[counter]] = {}
         binding.pry
         counter += 1
       end
