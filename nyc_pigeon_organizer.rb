@@ -3,10 +3,7 @@ require 'pry'
 def nyc_pigeon_organizer(data)
   pidgeon_list = {}
   data.each_pair do |(key, value)|
-    puts key
-    puts ===
-    puts value
+    binding.pry
     # if !pidgeon_list[value]
   end
-  binding.pry
 end
