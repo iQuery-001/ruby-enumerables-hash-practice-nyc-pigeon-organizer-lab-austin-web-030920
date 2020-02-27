@@ -9,6 +9,9 @@ def nyc_pigeon_organizer(data)
     # binding.pry
     counter += 1
   end
+  pigeon_list.each do |(key, value)|
+    key.to_s
+  end
   data.each do |(type, option)|
     option.each do |(option, value)|
       value.each do |name|
