@@ -13,8 +13,8 @@ describe "NYC Pigeon Organizer" do
           :brown => ["Queenie", "Alex"]
         },
         :gender => {
-          :female => ["Queenie", "Ms. K"]
-          :male => ["Alex", "Theo", "Peter Jr.", "Andrew", "Lucky"],
+          :female => ["Queenie", "Ms. K"],
+          :male => ["Alex", "Theo", "Peter Jr.", "Andrew", "Lucky"]
         },
         :lives => {
           "Subway" => ["Theo", "Queenie"],
