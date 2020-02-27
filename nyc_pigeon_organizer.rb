@@ -5,7 +5,7 @@ def nyc_pigeon_organizer(data)
   data[:gender].each do |type|
     n.each do |option|
       counter = 0
-      while counter < m.length
+      while counter < option.length
         pidgeon_list[m[counter]] = {}
         binding.pry
         counter += 1
