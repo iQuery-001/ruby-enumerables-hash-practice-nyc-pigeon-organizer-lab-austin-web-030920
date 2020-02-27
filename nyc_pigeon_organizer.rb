@@ -9,8 +9,8 @@ def nyc_pigeon_organizer(data)
     # binding.pry
     counter += 1
   end
-  data.each do |type|
-    type.each do |option|
+  data.each do |(type, option)|
+    type.each do |(option, value)|
       option.include?(pigeon_list[])
     end
   end
