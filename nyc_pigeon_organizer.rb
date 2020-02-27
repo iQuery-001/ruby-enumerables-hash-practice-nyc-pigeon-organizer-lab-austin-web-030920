@@ -2,8 +2,8 @@ require 'pry'
 
 def nyc_pigeon_organizer(data)
   pidgeon_list = {}
-  data[:gender].each do |n|
-    n.each do |m|
+  data[:gender].each do |type|
+    n.each do |option|
       counter = 0
       while counter < m.length
         pidgeon_list[m[counter]] = {}
