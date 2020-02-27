@@ -6,7 +6,7 @@ def nyc_pigeon_organizer(data)
     value.each do |(key, value)|
       binding.pry
     end
-    binding.pry
+    # binding.pry
     # if !pidgeon_list[value]
   end
 end
