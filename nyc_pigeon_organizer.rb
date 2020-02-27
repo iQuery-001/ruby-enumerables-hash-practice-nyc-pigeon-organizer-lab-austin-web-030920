@@ -10,8 +10,8 @@ def nyc_pigeon_organizer(data)
     counter += 1
   end
   data.each do |(type, option)|
-    type.each do |(option, value)|
-      value.include?(pigeon_list[])
+    option.each do |(option, value)|
+      # value.include?(pigeon_list[])
       binding.pry
     end
   end
