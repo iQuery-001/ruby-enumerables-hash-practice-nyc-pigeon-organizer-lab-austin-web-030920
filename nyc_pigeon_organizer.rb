@@ -11,7 +11,7 @@ def nyc_pigeon_organizer(data)
   end
   data.each do |(type, option)|
     option.each do |(option, value)|
-      # value.include?(pigeon_list[])
+      value.include?(pigeon_list[]) do 
       binding.pry
     end
   end
