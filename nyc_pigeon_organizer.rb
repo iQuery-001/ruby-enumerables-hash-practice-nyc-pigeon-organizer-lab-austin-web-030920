@@ -7,6 +7,7 @@ def nyc_pigeon_organizer(data)
       counter = 0
       while counter < m.length
         pidgeon_list[:m] = {}
+        binding.pru
     end
   end
   # data.each_pair do |(type, option)|
