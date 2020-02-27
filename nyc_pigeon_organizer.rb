@@ -8,6 +8,7 @@ def nyc_pigeon_organizer(data)
       while counter < m.length
         pidgeon_list[m] = {}
         binding.pry
+        counter += 1
       end
     end
   end
