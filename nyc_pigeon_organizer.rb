@@ -2,9 +2,12 @@ require 'pry'
 
 def nyc_pigeon_organizer(data)
   pidgeon_list = {}
-  counter = 0
   data[:gender].each do |n|
-    binding.pry
+    n.each do |m|
+      counter = 0
+      while counter < m.length
+        pidgeon_list[:m] = {}
+    end
   end
   # data.each_pair do |(type, option)|
   #   value.each do |(option, value)|
