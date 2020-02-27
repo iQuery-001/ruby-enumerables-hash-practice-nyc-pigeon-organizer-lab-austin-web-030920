@@ -8,6 +8,5 @@ def nyc_pigeon_organizer(data)
     puts value
     # if !pidgeon_list[value]
   end
+  binding.pruy
 end
-
-nyc_pigeon_organizer
