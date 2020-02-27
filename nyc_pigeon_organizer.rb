@@ -7,6 +7,7 @@ def nyc_pigeon_organizer(data)
   while counter < pigeon_names.length do
     pigeon_list[pigeon_names[counter].to_sym] = {color: [], gender: [], lives: []}
     counter += 1
+    binding.pru
   end
 
 end
