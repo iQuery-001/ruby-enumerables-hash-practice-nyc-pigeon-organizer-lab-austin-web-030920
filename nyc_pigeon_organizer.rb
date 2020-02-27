@@ -13,7 +13,7 @@ def nyc_pigeon_organizer(data)
   #   pigeon_list[key] = key.to_s
   # end
   data.each do |(type, option)|
-    option.each do |(option, value)|
+    option.each do |(option_2, value)|
       value.each do |name|
         pigeon_list[name][type] << option.to_s
         binding.pry
