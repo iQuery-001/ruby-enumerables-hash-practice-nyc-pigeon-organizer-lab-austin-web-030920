@@ -11,7 +11,9 @@ def nyc_pigeon_organizer(data)
   end
   data.each do |(type, option)|
     option.each do |(option, value)|
-      value.include?(pigeon_list[]) do 
+      value.each do |name|
+        pigeon_list[name.to_sym]
+      end
       binding.pry
     end
   end
