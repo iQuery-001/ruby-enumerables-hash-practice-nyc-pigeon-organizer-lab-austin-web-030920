@@ -4,6 +4,8 @@ def nyc_pigeon_organizer(data)
     puts key
     puts ===
     puts value
-    if !pidgeon_list[value]
+    # if !pidgeon_list[value]
   end
 end
+
+nyc_pigeon_organizer
