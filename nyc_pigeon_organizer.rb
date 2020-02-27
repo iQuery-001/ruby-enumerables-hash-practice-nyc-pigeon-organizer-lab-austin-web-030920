@@ -2,7 +2,7 @@ require 'pry'
 
 def nyc_pigeon_organizer(data)
   pigeon_list = {}
-  pigeon_names = data[:gender][:male].concat(data[:gender][:female])
+  pigeon_names = data[:gender][:male] + (data[:gender][:female])
   counter = 0
   pigeon_names.each do |name|
     # binding.pry
